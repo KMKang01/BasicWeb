@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'NotoMed';
+    src: url(./static/NotoSansKR-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'NotoBold';
+    src: url(./static/NotoSansKR-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'NotoReg';
+    src: url(./static/NotoSansKR-Regular.ttf)
+}
+
+.nav{
+    background-color: rgb(220, 232, 255);
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+    span {
+        text-align: center;
+        font-size: 1.8rem;
+        font-family: 'NotoMed';
+        width: 15em;
+        /* border: solid black 1px; */
+    }
+}
+
+.title {
+    text-align: center;
+    padding: 1rem;
+    margin: 1.25rem;
+    font-size: 3rem;
+    font-family: 'NotoBold';
+}
+
+.content{
+    display: flex;
+    font-family: 'NotoReg';
+}
+
+.child-content{
+    padding: 1rem;
+    width: 50%;
+    margin: 0.5rem;
+    h2 {
+        text-align: center;
+        font-family: 'NotoBold';
+        font-size: 1.9rem;    
+    }
+}
