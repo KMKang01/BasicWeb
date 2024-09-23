@@ -1,3 +1,3 @@
 # BasicWeb
 
-HTML, CSS, JavaScript부터 시작하여 고수준의 웹 페이지를 만들기 위해 만든 첫 프로젝트
+HTML, CSS, JavaScript를 사용하여 앞으로의 웹 페이지 개발의 밑바탕이 될 기초적인 프로젝트
