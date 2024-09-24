@@ -13,7 +13,7 @@
     src: url(./static/NotoSansKR-Regular.ttf)
 }
 
-.nav{
+nav{
     background-color: rgb(220, 232, 255);
     height: 5rem;
     width: 100%;
@@ -47,9 +47,19 @@
     padding: 1rem;
     width: 50%;
     margin: 0.5rem;
+    
     h2 {
         text-align: center;
         font-family: 'NotoBold';
         font-size: 1.9rem;    
     }
+    p {
+        margin-top: 1.4rem;
+        margin-bottom: 1.4rem;
+    }
+}
+
+.sub-title{
+    font-family: "NotoMed";
+    font-size: 1.3rem;
 }
