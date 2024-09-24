@@ -1,33 +1,47 @@
 @font-face {
-    font-family: 'NotoMed';
-    src: url(./static/NotoSansKR-Medium.ttf);
+    font-family: 'NotoBold';
+    src: url(../font/NotoSansKR-Bold.ttf);
 }
 
 @font-face {
-    font-family: 'NotoBold';
-    src: url(./static/NotoSansKR-Bold.ttf);
+    font-family: 'NotoMed';
+    src: url(../font/NotoSansKR-Medium.ttf);
 }
+
 
 @font-face{
     font-family: 'NotoReg';
-    src: url(./static/NotoSansKR-Regular.ttf)
+    src: url(../font/NotoSansKR-Regular.ttf)
 }
 
-nav{
+header{
     background-color: rgb(220, 232, 255);
     height: 5rem;
     width: 100%;
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     
     span {
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         font-size: 1.8rem;
         font-family: 'NotoMed';
         width: 15em;
+        height: inherit;
         /* border: solid black 1px; */
     }
+
+    a {
+        text-decoration-line: none;
+        color: black;
+    }
+}
+
+.nav:hover{
+    background-color: aqua;
 }
 
 .title {
